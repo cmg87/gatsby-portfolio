@@ -1,0 +1,31 @@
+#contactBackground{
+    background-color: #333333;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+}
+
+.form-style{
+    width: 400px;
+    height:600px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.brand-link{
+    text-decoration: none;
+    color: black;
+}
+
+.brand-link:hover{
+    color: whitesmoke;
+}
+
+#message, #email, #subject, #name{
+    background-color: black;
+    color: whitesmoke;
+}
