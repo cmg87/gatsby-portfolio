@@ -1,31 +1,54 @@
-#contactBackground{
-    background-color: #333333;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    margin: 0;
-    top: 0;
+#contactBackground {
+  background-color: #ff5722;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  top: 0;
 }
 
-.form-style{
-    width: 400px;
-    height:600px;
-    text-align: center;
-    margin-left:auto;
-    margin-right:auto;
+.form-style {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1.5rem;
 }
 
-.brand-link{
-    text-decoration: none;
-    color: black;
+.brand-link {
+  text-decoration: none;
+  color: black;
 }
 
-.brand-link:hover{
-    color: whitesmoke;
+.brand-link:hover {
+  color: whitesmoke;
 }
 
-#message, #email, #subject, #name{
-    background-color: black;
-    color: whitesmoke;
+#message,
+#email,
+#subject,
+#name {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.button {
+  color: whitesmoke;
+  background-color: black;
+  max-width: 100px;
+  height: 30px;
+  display: inline-block;
+  transition: color 1s;
+  transition: background-color 1s;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.button:hover {
+  color: black;
+  background-color: whitesmoke;
 }

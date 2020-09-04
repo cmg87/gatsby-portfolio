@@ -33,15 +33,15 @@ module.exports = {
         fonts: [
           {
             family: `Montserrat`,
-            variants: [`400`,'700']
+            variants: [`400`, "700"],
           },
           {
             family: `Montserrat`,
-            subsets: [`latin`]
+            subsets: [`latin`],
           },
         ],
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
