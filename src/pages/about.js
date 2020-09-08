@@ -2,7 +2,7 @@ import React from "react"
 import "./about.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons"
-import selfie from "../images/selfie.jpeg"
+import selfie from "../images/selfie.png"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"

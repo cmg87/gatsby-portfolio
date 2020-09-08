@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Chris Goerler Portfolio`,
-    description: `web development full stack `,
-    author: `Chris Goerler`,
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,21 +25,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`400`, "700"],
-          },
-          {
-            family: `Montserrat`,
-            subsets: [`latin`],
-          },
-        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
